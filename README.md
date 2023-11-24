@@ -1,4 +1,4 @@
-# RFID-story
+# RFID failai
 RFID technologijos failai
 
 ### Čia talpinama visa reikalinga info apie RFID technologijas.
