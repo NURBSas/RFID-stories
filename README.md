@@ -438,15 +438,15 @@ Pažvelkime į **PDOL** atidžiau. Po žymeklio nurodytas ilgis yra griežtai nu
 #### PDOL užklausos analizė:
 
      9F 38 18 // Pradžios markeris **PDOL**. ilgis 18 (24 baitai) 
-     9F 66 (длина 04) // Terminal Transaction Qualifiers (TTQ). Terminalo palaikomų protokolų rinkinys. 
-     9F 02 (длина 06) // Nurašymo suma
-     9F 03 (длина 06) // sekanti suma
-     9F 1A (длина 02) // Šalies kodas pagal ISO3166-1 standartą.
-     95 (длина 05) // Terminal Verification Results
-     5F 2A (длина 02) // Valiutos kodas, kuria dirba terminalas, ISO4217 standartas
-     9A (длина 03) // Data YYMMDD formate
-     9C (длина 01) // Transakcijos tipas 
-     9F 37 (длина 04) // Atsitiktinis skaičius 
+     9F 66 (ilgis 04) // Terminal Transaction Qualifiers (TTQ). Terminalo palaikomų protokolų rinkinys. 
+     9F 02 (ilgis 06) // Nurašymo suma
+     9F 03 (ilgis 06) // sekanti suma
+     9F 1A (ilgis 02) // Šalies kodas pagal ISO3166-1 standartą.
+     95 (ilgis 05) // Terminal Verification Results
+     5F 2A (ilgis 02) // Valiutos kodas, kuria dirba terminalas, ISO4217 standartas
+     9A (ilgis 03) // Data YYMMDD formate
+     9C (ilgis 01) // Transakcijos tipas 
+     9F 37 (ilgis 04) // Atsitiktinis skaičius 
 
 Iki šiol visi perduoti duomenys yra identiški visoms šios kortelės operacijoms.
 
