@@ -207,7 +207,7 @@ Sakysim aferistas nusprendžia vienu metu nurašyti 29 eurus. Jei bus prašoma p
 
 #### Problema Nr.2: Piniginėje kelios kortelės
 
-Tai svarbus momentas šiame vagystės scenarijuje, nes iš tikrųjų beveik niekas kišenėje nesinešioja vienos kortelės. Daugeliu atvejų kortelė yra saugoma piniginėje kartu su kitomis bekontaktėmis kortelėmis, tokiomis kaip kelionės bilietai ar kitos banko kortelės. Dalis terminalų, kai skaitytuvo lauke randama daugiau nei viena kortelė su **SAK**, žyminčia protokolo palaikymą **14443-4**, indikuoja klaidą: _Pateikti vieną kortelę_. Tačiau ne visi terminalai tai daro. Pavyzdžiui, **VeriFone Sberbank POS** terminalai pasirenka atsitiktinę kortelę iš kelių. Kai kurie terminalai tiesiog ignoruoja visas korteles jei yra daugiau nei viena kortelė. Ir nerodo jokių klaidų pranešimų.
+Tai svarbus momentas šiame vagystės scenarijuje, nes iš tikrųjų beveik niekas kišenėje nesinešioja vienos kortelės. Daugeliu atvejų kortelė yra saugoma piniginėje kartu su kitomis bekontaktėmis kortelėmis, tokiomis kaip kelionės bilietai ar kitos banko kortelės. Dalis terminalų, kai skaitytuvo lauke randama daugiau nei viena kortelė su **SAK**, žyminčia protokolo palaikymą **14443-4**, indikuoja klaidą: _Pateikti vieną kortelę_. Tačiau ne visi terminalai tai daro. Pavyzdžiui, **VeriFone POS** terminalai pasirenka atsitiktinę kortelę iš kelių. Kai kurie terminalai tiesiog ignoruoja visas korteles jei yra daugiau nei viena kortelė. Ir nerodo jokių klaidų pranešimų.
 
 #### Antikolizija ISO 14443-3
 
